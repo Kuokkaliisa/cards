@@ -12,8 +12,6 @@ $_POST['country'] ."');";
  // print $sql;
  $result = mysqli_query($conn, $sql);
  print("Save completed.");
-GIT Exercises 10 (13)
-29.12.2018
  print("</html>");
  mysqli_close($conn);
 }
